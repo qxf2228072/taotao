@@ -34,6 +34,7 @@ public class UIController {
     @RequestMapping(value="/{pageName}",method = RequestMethod.GET )
     public String toUsers(@PathVariable("pageName") String pageName){
         System.out.println("你好呀！！！！！");
+        System.out.println("pageName = [" + "我很好" + "]");
         return pageName;
     }
     
